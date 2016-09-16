@@ -22,6 +22,10 @@ public class Ave extends Animal {
         this.velocidadVuelo = velocidadVuelo;
     }   
     
+    /**
+     *
+     */
+    @Override
     public void makeNoise() {
         System.out.println("SHII SHI ..");                
     }
